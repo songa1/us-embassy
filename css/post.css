@@ -3,6 +3,9 @@
     width: 70%;
     margin: 0 15%;
     margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 68% 30%;
+    grid-gap: 2%;
 }
 
 .post-body img {
@@ -53,4 +56,31 @@
 
 .suggested-class h4 {
     border-bottom: 1px solid rgb(175, 169, 169);
+}
+
+.widgets {
+    width: 100%;
+    margin-top:30px;
+    box-sizing: border-box;
+}
+
+.widgets img {
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+.widgets form {
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(238, 235, 235);
+}
+
+.widgets form input {
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.widgets form button {
+    padding: 0.5em;
+    margin: 0.5em;
 }
