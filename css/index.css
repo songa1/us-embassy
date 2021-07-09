@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(248, 244, 244);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.top-section {
+    width: 100%;
+    display:grid;
+    padding: 0;
+    margin: 0 auto;
+    grid-template-columns: 100%;
+    justify-content:center;
+    background-image: url(../assets/images/Advantages-and-Disadvantages-of-Technology-wearandcheer.com_.jpg);
+}
+
+.top-post {
+    width: 100%;
+    color: white;
+    background-color: rgb(31, 53, 100);
+    opacity: 1;
+}
+.top-post p {
+    width: 70%;
+    margin: 0 15%;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.top-post p a {
+    text-decoration: underline;
+    color: rgb(223, 217, 217);
+}
+
+.brand-section {
+    background-color: rgb(44, 75, 143);
+    opacity:0.9;
+    border-bottom: 10px sold rgb(97, 23, 23);
+}
+
+.brands {
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.brand-logo-img {
+    width: 100px;
+    padding: 10px 0;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.brand-right {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.brand-social ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand-social ul li a img{
+    width: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-search input{
+    padding: 5px;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-top: 6px solid rgb(182, 36, 36);
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    padding: 0.5em;
+    margin: 0 3px;
+}
+
+.navbar ul li a:hover {
+    text-decoration:underline;
+}
+.navbar ul li a:active {
+    text-decoration:underline;
+    color: rgb(126, 57, 57);
+}
+
+.content-section {
+    width: 100%;
+}
+
+.featured-contents {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.featured-post img{
+    width: 100%;
+}
+
+.featured-post h5 {
+    position: relative;
+    top: 0;
+    bottom: 30px;
+}
+
+.navigate-featured {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0;
+
+}
+
+.featured-nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(248, 244, 244);
+    color: rgb(21, 37, 129);
+}
+.featured-nav {
+    text-decoration: none;
+}
+.featured-nav:hover {
+    color: rgb(9, 9, 37);
+    background-color:rgb(236, 233, 233);
+}
+
+.featured-nav:active {
+    color: rgb(76, 76, 177);
+}
+
+.call-to-actions {
+    width: 70%;
+    margin: 50px 15%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    justify-content:center;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(236, 233, 233);
+}
+
+.post-collection {
+    margin: 0 15%;
+    width: 70%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    justify-content: center;
+}
+
+.post {
+    width: 100%;
+    border: 1px solid rgb(184, 181, 181);
+}
+
+.post img {
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+}
+
+.post-details {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.show-more {
+    width: 70%;
+    margin: 20px 15%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.show-more button {
+    padding: 10px;
+    background-color: rgb(184, 181, 181);
+    border: 0;
+}
+
+.show-more button:hover {
+    background-color: rgb(233, 235, 236);
+}
+
+.footer-section {
+    width: 100%;
+    border-top: 10px solid rgb(202, 198, 198);
+}
+
+.footer-contents {
+    background-color:rgb(44, 75, 143);
+}
+
+.footer-address {
+    width: 70%;
+    margin: 0 15%;
+    display: grid;
+    grid-template-columns: 39% 29% 29%;
+    grid-gap: 1%;
+    color: #fff;
+}
+
+.footer-copyright {
+    background-color: rgb(31, 53, 100);
+    margin: 0;
+    bottom:0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.credits {
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+}
+
+.credits a {
+    text-decoration: underline;
+    color: rgb(218, 209, 209);
+
+}
+
+.footer-item {
+    width: 100%;
+}
