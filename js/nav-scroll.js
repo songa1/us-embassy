@@ -12,3 +12,35 @@ document.addEventListener("DOMContentLoaded", function(){
         } 
     });
 });
+
+const links = [
+  {
+    id: 1,
+    title: 'Home',
+    location: './index.html'
+  },
+  {
+    id: 2,
+    title: 'About me',
+    location: './index.html',
+  },
+  {
+    id: 3,
+    title: 'Contact me',
+    location: './index.html'
+  },
+]
+
+const renderLinks = (data) => {
+  const linkHolder = document.querySelector('.nav')
+  const link = document.createElement('a')
+
+  link.textContent = data.title
+  link.href = data.location
+
+  linkHolder.appendChild(link)
+}
+
+links.forEach(link => {
+  renderLinks(link)
+})

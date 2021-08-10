@@ -10,30 +10,22 @@
 <body>
     <div class="container">
         <section class="top-section">
-            <div class="top-post"><p>Lorem ipsum dolor sit amet... <a href="#">Read more</a></p><p id="date"></p></div>
+            <div class="top-post">
+                <div class="post-date">
+                    <p id="post-changing"><!-- Posts that change after 5 seconds --></p>
+                    <p id="date"><!-- The clock on my page --></p>
+                </div>
+            </div>
             <div class="brand-section">
                 <div class="brands">
-                    <div class="brand-logo">
-                        <img src="./assets/images/AS-PNG.png" alt="blog logo" class="brand-logo-img">
-                        <h1>Blog</h1>
-                    </div>
-                    <div class="brand-right">
-                        <div class="brand-social">
-                                <a href="#"><img src="./assets/icons/facebook-xxl.png" alt="Facebook for blog"></a>
-                                <a href="#"><img src="./assets/icons/instagram-xxl copy.png" alt="Instagram for blog"></a>
-                        </div>
-                    </div>
+                    <div class="brand-logo"><!-- Site logo and name will be displayed here --></div>
+                    <div class="brand-social"><!-- Social media sites will be rendered here --></div>
                 </div>
             </div>
         </section>
         <section class="navbar-section" id="navbar_top">
             <div class="navbar">
-                    <div class="nav">
-                        <a href="#">Home</a>
-                        <a href="#">Blog</a>
-                        <a href="#">About me</a>
-                        <a href="#">Contact</a>
-                    </div>
+                <nav class="nav"><!-- Nav links will be rendered here --></nav>
                 <div class="brand-search">
                     <input type="search" placeholder="Search blog..."/>
                 </div>
@@ -48,10 +40,10 @@
                     </div>
                 </div>
                 <div class="navigate-featured">
-                    <a href="#" class="featured-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quo.</a>
+                    <!-- <a href="#" class="featured-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, quo.</a>
                     <a href="#" class="featured-nav">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, pariatur?</a>
                     <a href="#" class="featured-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quibusdam!</a>
-                    <a href="#" class="featured-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quibusdam!</a>
+                    <a href="#" class="featured-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quibusdam!</a> -->
                 </div>
              </div>
              <div class="call-to-actions">
@@ -60,16 +52,8 @@
                 <div class="call-to-action three">COVID-19</div>
              </div>
              <div class="post-collection">
-                <!-- <div class="post">
-                    <img src="./assets/images/Advantages-and-Disadvantages-of-Technology-wearandcheer.com_.jpg" alt="post" />
-                    <div class="post-details">
-                        <a href="#">
-                            <h2>Post title</h2>
-                        </a>
-                        <p>3, July 2021 | <span><a href="#">Category</a></span></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi rerum error in cupiditate?</p>
-                    </div>
-                </div> -->
+                
+                <!-- This is where all posts are displayed -->
                 
              </div>
              <div class="show-more"><button>Show more</button></div>
@@ -122,8 +106,11 @@
             </div>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/nav-scroll.js"></script>
     <script src="./js/date.js"></script>
     <script src="./js/posts.js"></script>
+    <script src="./js/siteEdit.js"></script>
+    <script src="./js/social.js"></script>
 </body>
 </html>
